@@ -158,6 +158,27 @@ DF %>% filter(Age==0) %>%
 
 ggsave("out/F2.pdf",width = 12,height = 8)
 
+##---- Figure 2b -----
+f2bA <- DF %>% filter(Age==0, Sex=="female") %>% 
+  ggplot(aes(x=edag,y=AUM,color=Year))+
+  geom_point() +
+  theme_bw(base_size = 16) +
+  labs(x="e",y="AUM") +
+  scale_color_viridis(option = "C")
+f2bA
+
+f2bB <- DF %>% filter(Age==0, Sex=="female") %>% 
+  mutate(H=edag/ex) %>% 
+  ggplot(aes(x=H,y=AUM,color=Year))+
+  geom_point() +
+  theme_bw(base_size = 16) +
+  labs(x="Entropy",y=NULL) +
+  scale_color_viridis(option = "C")
+f2bB
+
+f2bA + f2bB + plot_layout(guides = 'collect')
+
+ggsave("out/F2b-pre.pdf",width = 12,height = 8)
 
 
 ##---- Figure 3 -----

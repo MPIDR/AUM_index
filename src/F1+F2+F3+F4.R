@@ -4,6 +4,20 @@
 ##
 ## Generating Figures 1, 2, 3 and 4 of the paper
 ##
+##  sessionInfo() details:
+##
+## R version 4.2.3 (2023-03-15 ucrt)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 10 x64 (build 19044)
+##
+## attached base packages:
+## stats     graphics  grDevices utils     datasets  methods   base     
+##
+## other attached packages:
+## viridis_0.6.3     viridisLite_0.4.2 patchwork_1.1.2   lubridate_1.9.2  
+## forcats_1.0.0     stringr_1.5.0     dplyr_1.1.2       purrr_1.0.1      
+## readr_2.1.4       tidyr_1.3.0       tibble_3.2.1      ggplot2_3.4.2    
+## tidyverse_2.0.0   HMDHFDplus_2.0.1 
 ##--------------------------------------------------##
 
 ## cleaning the workspace

@@ -2,7 +2,7 @@
 ##
 ## Computing the AUM from observed period death rates
 ##
-## Generating Figures 1, 2 and 3 of the paper
+## Generating Figures 1, 2, 3 and 4 of the paper
 ##
 ##--------------------------------------------------##
 

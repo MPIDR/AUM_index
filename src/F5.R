@@ -2,7 +2,7 @@
 ##
 ## Computing the AUM from observed cohort death rates
 ##
-## Generating Figure 4 of the paper
+## Generating Figure 5 of the paper
 ##
 ##--------------------------------------------------##
 

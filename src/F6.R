@@ -3,7 +3,7 @@
 ## Computing the AUM from observed period death rates
 ## and modelled period life-table death rates
 ##
-## Generating Figure 5 and Table 1 of the paper
+## Generating Figure 6 of the paper
 ##
 ##--------------------------------------------------##
 

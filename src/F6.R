@@ -7,18 +7,18 @@
 ##
 ##  sessionInfo() details:
 ##
-## R version 4.2.3 (2023-03-15 ucrt)
+## R version 4.3.2 (2023-10-31 ucrt)
 ## Platform: x86_64-w64-mingw32/x64 (64-bit)
-## Running under: Windows 10 x64 (build 19044)
+## Running under: Windows 10 x64 (build 19045)
 ##
 ## attached base packages:
 ## stats     graphics  grDevices utils     datasets  methods   base     
 ##
 ## other attached packages:
-## viridis_0.6.3     viridisLite_0.4.2 patchwork_1.1.2   lubridate_1.9.2  
-## forcats_1.0.0     stringr_1.5.0     dplyr_1.1.2       purrr_1.0.1      
-## readr_2.1.4       tidyr_1.3.0       tibble_3.2.1      ggplot2_3.4.2    
-## tidyverse_2.0.0   HMDHFDplus_2.0.1 
+## viridis_0.6.5     viridisLite_0.4.2 patchwork_1.2.0   lubridate_1.9.3  
+## forcats_1.0.0     stringr_1.5.1     dplyr_1.1.4       purrr_1.0.2      
+## readr_2.1.5       tidyr_1.3.1       tibble_3.2.1      ggplot2_3.4.4    
+## tidyverse_2.0.0   HMDHFDplus_2.0.3 
 ##--------------------------------------------------##
 
 ## cleaning the workspace
@@ -92,7 +92,7 @@ if (UPDATE){
   DF <- DF1 %>% bind_rows(DF2) %>% bind_rows(DF3)
   
   ## save results
-  save(DF,file="out/F6.Rdata")
+  save(DF,DF1,DF2,DF3,file="out/F6.Rdata")
   
 }else{
   load("out/F6.Rdata")
